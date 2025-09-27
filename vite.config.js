@@ -1,19 +1,10 @@
-import { defineConfig } from 'vite';
-import laravel from 'laravel-vite-plugin';
+// vite.config.js
 import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react";  
-
+import react from "@vitejs/plugin-react"; // kalau pakai React
 
 export default defineConfig({
-    plugins: [
-        laravel({
-            input: ['resources/css/app.css', 'resources/js/app.js'],
-            refresh: true,
-            build: {
-            outDir: "dist"   // <- default, biarin dist
+  plugins: [react()],
+  build: {
+    outDir: "dist" // atau "public/build" sesuai pilihan kamu
   }
-        }),
-    ],
 });
-
-
