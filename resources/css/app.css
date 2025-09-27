@@ -1,0 +1,58 @@
+@import 'aos/dist/aos.css';
+
+/* Tailwind CSS Import */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Custom Styles */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #0f172a; /* Dark background */
+    color: #e2e8f0; /* Light text */
+}
+
+h1, h2, h3 {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+a {
+    color: #60a5fa; /* Link color */
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #3b82f6; /* Hover link color */
+}
+
+.navbar {
+    backdrop-filter: blur(10px);
+}
+
+.hero-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.project-card {
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.footer {
+    background-color: rgba(15, 23, 42, 0.8);
+    padding: 2rem 0;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 2rem;
+    }
+}
