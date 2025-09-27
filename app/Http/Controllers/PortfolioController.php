@@ -24,6 +24,16 @@ class PortfolioController extends Controller
             'demo_link' => 'https://demo.lika-liku-laki.com',
             'duration' => 'Mei 2024 - Mei 2024',
             'institution' => 'Universitas Atma Jaya Yogyakarta'
+        ],
+
+        [
+            'title' => 'RJ CarWash',
+            'description' => 'Mengembangkan Website Untuk Keperluan Bisnis Cuci Mobil RJ CarWash. Website ini memiliki fitur Booking Service, Layanan, Galeri, Testimoni, dan Kontak. Website ini dibuat untuk memudahkan pelanggan dalam melakukan booking service cuci mobil secara online.',
+            'images' => ['/images/projects/ProyekRJ.png'],
+            'github_link' => 'https://github.com/danielpascalis/lika-liku-laki',
+            'demo_link' => 'https://demo.lika-liku-laki.com',
+            'duration' => 'Januari 2024 - Februari 2024',
+            'institution' => 'RJ Enterpises'
         ]
     ];
 
